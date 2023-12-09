@@ -1,0 +1,11 @@
+$primary: red;
+
+// Import Bootstrap's Sass files
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+
+$testing: blue;
+
+body {
+  background-color: $primary;
+}
