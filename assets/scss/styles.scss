@@ -1,0 +1,17 @@
+// it says that to be able to override variable defaults, functions must be imported first before anything else :)
+@import 'node_modules/bootstrap/scss/_functions';
+
+// my own var
+$primary-clr: slategrey;
+$body-clr: #111;
+$body-bg-clr: #000;
+$info-clr: purple;
+$warning-clr: maroon;
+
+$body-bg: $body-bg-clr;
+$body-color: $body-clr;
+$primary: $primary-clr;
+$info: $info-clr;
+$warning: $warning-clr;
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
